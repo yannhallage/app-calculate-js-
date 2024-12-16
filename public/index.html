@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document Calculatrice app js </title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+     <!-- teste de competences en js  -->
+     <header>
+        <div>
+            <span>APP Calculatrice JS </span>
+            <!-- <span id="btn-decon">decon</span> -->
+        </div>
+     </header>
+     <!-- <div id="s">
+        deconnecter
+    </div> -->
+     <main>
+        <section>
+           <center>
+            <div id="zero">
+                <p id="chiffre-zero">
+                    0
+                </p>
+            </div>
+           </center>
+            <div id="operation-one" style="padding: 7px; font-size: x-large;">
+                <button id="btn" class="AC" onclick="executer(0)">AC</button>
+                <button id="btn" class="AS" onclick="executer(1)">+/-</button>
+                <button id="btn" class="pourcentage" onclick="executer(2)">%</button>
+                <button id="btn" class="color div" onclick="executer(3)">DIV</button>
+            </div>
+            <div id="operation-two" style="padding: 7px; font-size: x-large;">
+                <button id="btn-one" class="color2" onclick="chiffre(4)">7</button>
+                <button id="btn-one" class="color2" onclick="chiffre(5)">8</button>
+                <button id="btn-one" class="color2" onclick="chiffre(6)">9</button>
+                <button id="btn-one" class="color" onclick="operateur(7)">x</button>
+            </div>
+            <div id="operation-three" style="padding: 7px; font-size: x-large;">
+                <button id="btn-one" class="color2"  onclick="chiffre(8)">4</button>
+                <button id="btn-one" class="color2" onclick="chiffre(9)">5</button>
+                <button id="btn-one" class="color2" onclick="chiffre(10)">6</button>
+                <button id="btn-one" class="color" onclick="operateur(11)">-</button>
+            </div>
+            <div id="operation-four" style="padding: 7px; font-size: x-large;">
+                <button id="btn-one" class="color2" onclick="chiffre(12)">1</button>
+                <button id="btn-one" class="color2" onclick="chiffre(13)">2</button>
+                <button id="btn-one" class="color2" onclick="chiffre(14)">3</button>
+                <button id="btn-one" class="color" onclick="operateur(15)">+</button>
+            </div>
+            <div id="operation-five " style="padding: 7px; font-size: x-large;">
+                <button id="btn-zero" onclick="chiffre(16)">0</button>
+                <button id="btn-virgule" onclick="chiffre(17)">,</button>
+                <button id="btn-egale" class="color" onclick="valeur_calculee(18)">=</button>
+                <!-- <button id="btn-one">DIV</button> -->
+            </div>
+        </section>
+     </main>
+     <script  src="js/app-calculate.js"></script>
 </body>
 </html>

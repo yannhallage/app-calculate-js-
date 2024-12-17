@@ -4,7 +4,8 @@ const path = require('path')
 const port = 3000
 
 // autoriser les files statiques comme les files css 
- app.use(express.static(path.join(__dirname, 'public' , 'js')))
+app.use(express.static(path.join(__dirname, 'public')))
+app.use(express.static(path.join(__dirname, 'js')))
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/index.html'))

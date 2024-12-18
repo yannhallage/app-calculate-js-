@@ -3,7 +3,7 @@ simple app calculator with js using express
 
 # Nom du Projet
 
-une simple app de calculatrice pas terminer je sais mais je reviendrai la dessus pour d'autre modif 
+une simple app de calculatrice pas totalement terminer je sais mais je reviendrai la dessus pour d'autre modif 
 
 ## Table des matières
 
